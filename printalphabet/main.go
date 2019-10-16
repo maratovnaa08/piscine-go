@@ -1,17 +1,11 @@
 package main
 
 
-import (
-
-  "fmt"
-
-  "strings"
-
-)
+import "github.com/01-edu/z01"
 
 
 func main() {
-
-    fmt.Println(strings.ToLower("ABCDEFGHIJKLMNOPQRSTUVWXYZ\n"))
-
+for i:='a'; i<='z'; i++{
+    z01.PrintRune(i)}
+z01.PrintRune('\n')
 }
