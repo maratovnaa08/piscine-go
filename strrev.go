@@ -2,9 +2,9 @@ package piscine
 
 //S PrinStr do something
 func StrRev(s string) string {
-	var a string
+	var abc string
 	for _, b := range s {
-		a := string(b) + a
+		abc := string(b) + abc
 	}
-	return a
+	return abc
 }
