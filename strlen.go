@@ -7,6 +7,7 @@ func StrLen(str string) int {
 		if b == b {
 			a++
 		}
-		return (a)
+
 	}
+	return a
 }
