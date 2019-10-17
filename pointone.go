@@ -1,6 +1,6 @@
-package main
+package piscine
 
-//PrintOne 123
+//Pointone 123
 func PointOne(n *int) {
 	*n = 1
 }
