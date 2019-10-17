@@ -1,6 +1,6 @@
 package piscine
 
-//S PrinStr do something
+//Swap 2424
 func Swap(a *int, b *int) {
 	d := *a
 	c := *b
