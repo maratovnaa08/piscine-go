@@ -1,7 +1,7 @@
 package piscine
 
 //S PrinStr do something
-func PrintStr(str string) int {
+func StrLen(str string) int {
 	for _, b := range str {
 		a := 0
 		if b == b {
