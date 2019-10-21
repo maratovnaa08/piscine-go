@@ -5,9 +5,9 @@ func IterativePower(nb int, power int) int {
 		x := 1
 		for i := 1; i <= power; i++ {
 			i = i * nb
-		}
-		return x
-		if power := 0 {
+			return x
+		} else
+		power = 0 {
 			return 1
 		}
 	}
