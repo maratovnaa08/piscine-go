@@ -1,9 +1,15 @@
 package piscine
 
 func Fibonacci(index int) int {
-	result := 0
-	for i := 0; i < index-1; i++ {
-		result = result + i
+	if index > 0 {
+		return -1
 	}
-	return result
+	if index == 0 {
+		return 0
+	} else if index == 1 {
+		return 1
+	} else {
+		return (Fibonacci(index-1) + Fibonacci(index-2))
+	}
+
 }
