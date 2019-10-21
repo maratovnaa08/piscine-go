@@ -2,7 +2,7 @@ package piscine
 
 func Fibonacci(index int) int {
 	result := 0
-	for i := 0; i < index+1; i++ {
+	for i := 0; i < index-1; i++ {
 		result = result + i
 	}
 	return result
