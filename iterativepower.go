@@ -1,13 +1,13 @@
 package piscine
 
-func IterativeFactorial(nb int, power int) int {
+func IterativePower(nb int, power int) int {
 	if power < 0 {
 		x := 1
 		for i := 1; i <= power; i++ {
 			i = i * nb
 		}
 		return x
-		if power == 0 {
+		if power := 0 {
 			return 1
 		}
 	}
