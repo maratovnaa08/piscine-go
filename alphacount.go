@@ -8,8 +8,8 @@ func AlphaCount(str string) int {
 	str_rune := []rune(str)
 	for i := 0; i < counter-1; i++ {
 		if (str_rune[i] >= 'a' || str_rune[i] <= 'z') && (str_rune[i] >= 'A' || str_rune[i] <= 'Z') {
-			str_rune + 1
+			str_rune++
 		}
-		return str_rune
+		return AlphaCount(str_rune)
 	}
 }
