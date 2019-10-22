@@ -10,6 +10,6 @@ func AlphaCount(str string) int {
 		if (str_rune[i] >= 'a' || str_rune[i] <= 'z') && (str_rune[i] >= 'A' || str_rune[i] <= 'Z') {
 			str_rune++
 		}
-		return AlphaCount(str_rune)
+		return (AlphaCount(str_rune))
 	}
 }
