@@ -9,5 +9,5 @@ func NRune(s string, n int) rune {
 	if n <= count-1 {
 		return str_rune[n-1]
 	}
-	return str_rune[0]
+	return 0
 }
