@@ -7,7 +7,7 @@ func AlphaCount(str string) int {
 	}
 	letter := []rune(str)
 	for i := 0; i < counter-1; i++ {
-		if (letter >= 'a' || letter <= 'z') && (letter >= 'A' || letter <= 'Z') {
+		if (letter[i] >= 'a' || letter[i] <= 'z') && (letter[i] >= 'A' || letter[i] <= 'Z') {
 
 			letter++
 		}
