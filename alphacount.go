@@ -11,6 +11,6 @@ func AlphaCount(str string) int {
 
 			counter++
 		}
-		return letter
+		return counter
 	}
 }
