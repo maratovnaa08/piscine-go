@@ -1,12 +1,12 @@
 package piscine
 
 func LastRune(s string) rune {
-	x := 0
-	for _, char := range x {
+	a := 0
+	for _, char := range a {
 		if char == char {
-			x++
+			a++
 		}
 	}
 	y := []rune(s)
-	return y[x-1]
+	return y[a-1]
 }
