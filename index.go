@@ -12,7 +12,7 @@ func Index(s string, toFind string) int {
 		count_s++
 	}
 	for index := 0; index < count_s; index++ {
-		if count_find > 0 && s[index] == toFind[0] {
+		if count_find > 0 && string(s[index]) == string(toFind[0]) {
 			return index
 		}
 	}
