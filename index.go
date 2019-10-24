@@ -1,8 +1,7 @@
-package piscine //main
+package piscine
 
-//import "fmt"
 func Index(s string, toFind string) int {
-	//	s_rune := []rune(s)
+	//s_rune := []rune(s)
 	toFind_rune := []rune(toFind)
 	count_find := 0
 	for range toFind_rune {
@@ -19,9 +18,3 @@ func Index(s string, toFind string) int {
 	}
 	return -1
 }
-
-//func main() {
-//	fmt.Println(Index("1Vk", ""))
-//	fmt.Println(Index("!9h'jc09EGsS9", "09tfRtkg5p3HH"))
-//	fmt.Println(Index("kg^(g$$h_MF>9", ">hgDLCyht&=AX"))
-//}
