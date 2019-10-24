@@ -1,6 +1,7 @@
 package piscine
 
 func Index(s string, toFind string) int {
+
 	k := 0
 	d := 0
 	for i := range toFind {
