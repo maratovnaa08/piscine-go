@@ -18,7 +18,11 @@ func Index(s string, toFind string) int {
 				return index
 			} else {
 				return -1
+<<<<<<< HEAD
 			}
+=======
+			}	
+>>>>>>> 61595d9740864d2ce61d8c9ae7a8f56112edef2b
 		} else {
 			return -1
 		}
