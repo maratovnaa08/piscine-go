@@ -12,20 +12,16 @@ func Index(s string, toFind string) int {
 	for range S_rune {
 		count_s++
 	}
+
 	for index := 0; index < count_s; index++ {
 		if count_find > 0 {
 			if string(S_rune[index]) == string(toFind_rune[0]) {
 				return index
 			} else {
 				return -1
-<<<<<<< HEAD
 			}
-=======
-			}	
->>>>>>> 61595d9740864d2ce61d8c9ae7a8f56112edef2b
-		} else {
 			return -1
 		}
+		return -1
 	}
-	return -1
 }
