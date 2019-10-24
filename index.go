@@ -13,8 +13,15 @@ func Index(s string, toFind string) int {
 		count_s++
 	}
 	for index := 0; index < count_s; index++ {
-		if count_find > 0 && string(S_rune[index]) == string(toFind_rune[0]) {
-			return index
+		if count_find > 0 {
+			if string(S_rune[index]) == string(toFind_rune[0]) {
+				return index
+			} else {
+				return -1
+			}	
+		}
+		else {
+			return -1
 		}
 	}
 	return -1
