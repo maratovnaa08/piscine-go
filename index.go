@@ -19,8 +19,7 @@ func Index(s string, toFind string) int {
 			} else {
 				return -1
 			}	
-		}
-		else {
+		} else {
 			return -1
 		}
 	}
