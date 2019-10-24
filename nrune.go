@@ -1,13 +1,18 @@
 package piscine
 
+//NRune returns the nth rune of a string
 func NRune(s string, n int) rune {
-	s_rune := []rune(s)
-	count := 0
-	for range s_rune {
-		count = count + 1
+	l := 0
+	for i := range s {
+		if i == i {
+			l++
+		}
 	}
-	if n <= count-1 {
-		return s_rune[n-1]
+	if n-1 >= 0 && l >= n {
+		a := []rune(s)
+		d := n - 1
+		return a[d]
 	}
 	return 0
+
 }
