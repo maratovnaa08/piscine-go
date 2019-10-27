@@ -1,4 +1,4 @@
-package piscine
+package student
 
 //Index behaves like the Index function
 func Index(s string, toFind string) int {
