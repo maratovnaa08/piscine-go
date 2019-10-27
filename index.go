@@ -1,4 +1,4 @@
-package piscine
+package student
 
 func Index(s string, toFind string) int {
 	toFind_rune := []rune(toFind)
