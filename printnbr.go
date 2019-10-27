@@ -1,7 +1,10 @@
 package piscine
 
-import "github.com/01-edu/z01"
+import (
+	"github.com/01-edu/z01"
+)
 
+//PrintNbr do smth
 func PrintNbr(n int) {
 	if n < 0 {
 		z01.PrintRune('-')
@@ -9,6 +12,7 @@ func PrintNbr(n int) {
 	PrintN(n)
 }
 
+// PrintN get number
 func PrintN(s int) {
 
 	i := '0'
