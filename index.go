@@ -1,23 +1,26 @@
 package piscine
 
+//Index behaves like the Index function
 func Index(s string, toFind string) int {
-	toFind_rune := []rune(toFind)
-	S_rune := []rune(s)
-	count_find := 0
-	for range toFind_rune {
-		count_find = count_find + 1
-	}
-	count_s := 0
-	for range S_rune {
-		count_s++
-	}
-
-	for index := 0; index < count_s; index++ {
-		if count_find > 0 {
-			if string(S_rune[index]) == string(toFind_rune[0]) {
-				return index
-			}
+	//b := []rune(s)
+	k := 0
+	d := 0
+	for i := range toFind {
+		if i == i {
+			k++
 		}
 	}
-	return -1
+	if k != 0 {
+		c := []rune(toFind)
+		for i, chr := range s {
+			if i == i {
+				d++
+			}
+			if c[0] == chr && c[0] != 10 {
+				return i
+			}
+		}
+		return -1
+	}
+	return 0
 }
